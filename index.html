@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta
+		name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- displays site properly based on user's device -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+		<title>céline exercice sneakers product page</title>
+
+	</head>
+
+	<body>
+
+		<main>
+
+			<header>
+				<nav>
+					<ul>
+						<img class="close" src="assets/images/icon-close.svg" alt="croix">
+						<li>Collections</li>
+						<li>Men</li>
+						<li>Women</li>
+						<li>About</li>
+						<li>Contact</li>
+					</ul>
+				</nav>
+
+				<div class="menu">
+					<img class="menu-burger" src="assets/images/icon-menu.svg" alt="menu-burger">
+					<img class="logo" src="assets/images/logo.svg" alt="logo">
+
+					<ul>
+						<li>Collections</li>
+						<li>Men</li>
+						<li>Women</li>
+						<li>About</li>
+						<li>Contact</li>
+					</ul>
+
+				</div>
+
+				<div class="compte-achat">
+					<span id="panier-btn">0</span>
+					<img id="panier" src="assets/images/icon-cart.svg" alt="panier">
+					<img id="avatar" src="assets/images/image-avatar.png" alt="compte-homme">
+				</div>
+
+			</section>
+
+
+			<card class="card-null">
+				<h3>Cart</h3>
+				<p>Your cart is empty</p>
+			</card>
+
+
+			<card class="card-full">
+				<h3>Cart</h3>
+				<div class="info-panier">
+					<img src="assets/images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail">
+					<div>
+						<p>Fall Limited Edition Sneakers</p>
+						<span id="prix"></span>
+						<span>x</span>
+						<span id="quantite"></span>
+						<span>=</span>
+						<span id="resultat-black"></span>
+						<span id="dollar-balck">$</span>
+					</div>
+					<img id="poubelle" class="picto-poubelle" src="assets/images/icon-delete.svg" alt="poubelle">
+				</div>
+				<button type="button">Checkout</button>
+			</card>
+
+		</header>
+
+		<section class="product">
+
+			<section class="overlay-image-product">
+				<div>
+					<img class="close-overlay" src="assets/images/icon-close copy.svg" alt="croix">
+					<button class="btn-mobile" id="btnLeft" type="button"><img src="assets/images/icon-previous.svg" alt="arrow-left"></button>
+					<article>
+						<img class="img-overlay active" src="assets/images/image-product-1.jpg" alt="image-product-1">
+						<img class="img-overlay" src="assets/images/image-product-2.jpg" alt="image-product-1">
+						<img class="img-overlay" src="assets/images/image-product-3.jpg" alt="image-product-1">
+						<img class="img-overlay" src="assets/images/image-product-4.jpg" alt="image-product-1">
+					</article>
+					<button class="btn-mobile" id="btnRight" type="button"><img src="assets/images/icon-next.svg" alt="arrow-right"></button>
+				</div>
+
+				<div class="caroussel">
+					<img class="img-petite" src="assets/images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail">
+					<img class="img-petite" src="assets/images/image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail">
+					<img class="img-petite" src="assets/images/image-product-3-thumbnail.jpg" alt="image-product-3-thumbnail">
+					<img class="img-petite" src="assets/images/image-product-4-thumbnail.jpg" alt="image-product-4-thumbnail">
+				</div>
+			</section>
+
+			<section class="image-product">
+				<button class="btn-mobile" id="btnLeft" type="button"><img src="assets/images/icon-previous.svg" alt="arrow-left"></button>
+				<img class="big-image" src="assets/images/image-product-1.jpg" alt="image-product-1">
+				<button class="btn-mobile" id="btnRight" type="button"><img src="assets/images/icon-next.svg" alt="arrow-right"></button>
+
+				<div class="caroussel">
+					<img class="img-thumbnail" src="assets/images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail">
+					<img class="img-thumbnail" src="assets/images/image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail">
+					<img class="img-thumbnail" src="assets/images/image-product-3-thumbnail.jpg" alt="image-product-3-thumbnail">
+					<img class="img-thumbnail" src="assets/images/image-product-4-thumbnail.jpg" alt="image-product-4-thumbnail">
+				</div>
+			</section>
+
+			<section class="info-product">
+				<h2>
+					Sneaker Company</h2>
+				<h1>
+					Fall Limited Edition Sneakers</h1>
+				<p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+					          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+
+				<div class="price">
+					<div class="new-price">
+						<span class="dollar-price">$</span>
+						<span class="price-reduced">125.00</span>
+						<span class="reduction">50%</span>
+					</div>
+					<span class="price-initial">$250.00</span>
+				</div>
+
+				<div class="add-payment">
+					<div>
+						<button class="less" type="button"><img src="assets/images/icon-minus.svg" alt="signe-moins"></button>
+						<span id="compteur">0</span>
+						<button class="more" type="button"><img src="assets/images/icon-plus.svg" alt="signe-plus"></button>
+					</div>
+					<button class="payment" type="button">
+						<img src="assets/images/icon-cart copy.svg" alt="panier">
+						Add to cart</button>
+				</div>
+			</section>
+
+		</section>
+	</body>
+</html></main><script src="assets/script/app.js"></script></body></html>

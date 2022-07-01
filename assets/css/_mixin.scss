@@ -1,0 +1,38 @@
+@mixin Btn{
+    padding: 1.2rem;
+    background-color: $colorWhiteGray;
+    border:0;
+   
+}
+
+@mixin btnImage{
+    background-color: $colorWhite;
+    border-radius: 25px;
+    border: 0;
+    padding: 1rem;
+    position: absolute;
+    display: block;
+    height: 50px;
+    width: 50px;
+    
+}
+
+@mixin h3{
+    color:$colorBlackGray;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $colorLightGray;
+    padding-left:1rem;
+}
+
+@mixin card{
+    position: absolute;
+    z-index: 3;
+    background-color: $colorWhite;
+    width: 22%;
+    height: 13rem;
+    top: 5rem;
+    right: -4rem;
+    box-shadow: 0px 2px 12px $colorLightGray;
+    border-radius: 1rem;
+}
