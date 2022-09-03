@@ -219,6 +219,7 @@ header {
 
 }
 
+
 .product {
     display: flex;
     width: 95%;
@@ -663,6 +664,10 @@ header {
 
 
 
+    }
+
+    .overlay-image-product {
+         display: none !important;
     }
 
     .info-product {

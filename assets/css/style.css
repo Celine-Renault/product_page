@@ -641,6 +641,9 @@ header .compte-achat img:last-child:hover {
   .product .image-product #btnLeft {
     left: 30px;
   }
+  .overlay-image-product {
+    display: none !important;
+  }
   .info-product {
     width: 90%;
     margin: 3rem auto;
