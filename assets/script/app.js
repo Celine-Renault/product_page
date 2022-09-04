@@ -224,22 +224,6 @@ function defilerRight(){
     } 
 }
 
-// caroussel - afficher les images miniatures en grand (au dessus) quand on clique dessus - en mode mobile
-/*
-let bigImg = document.querySelector('.active');
-let thumbnails = document.querySelectorAll('.img-petite'); // All recupere un tableau il recupere totues les images
-
-// this fait reference à item
-thumbnails.forEach(function(item){  // item => chaque element du tableau, chaque item correspond a un element du tableau
-    item.addEventListener('click', changeImg)
-
-});
-
-function changeImg(){
-    bigImg.src = this.src.replace('-thumbnail', '');
- 
-}
-*/
 
 
 
